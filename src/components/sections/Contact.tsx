@@ -74,7 +74,7 @@ export default function Contact() {
           marginBottom:  "3rem",
         }}
       >
-        Let&apos;s build<br />
+        Let's build<br />
         <span style={{ color: "var(--accent)" }}>together.</span>
       </h2>
 
@@ -127,7 +127,7 @@ export default function Contact() {
         letterSpacing:  "0.05em",
       }}>
         <span>© 2025 — all rights reserved</span>
-        <span>designed & built by Priyanshu</span>
+        <span>designed & built by <span style={{ color: "var(--accent)" }}>Priyanshu.</span></span>
       </div>
     </section>
   );
