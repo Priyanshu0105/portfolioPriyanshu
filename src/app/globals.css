@@ -89,4 +89,10 @@ section { padding: 7rem 3rem; }
   section {
     padding: 4rem 1.5rem !important;
   }
+  .hero-section {
+    min-height: auto !important;
+    padding-top: 7rem !important;
+    padding-bottom: 3rem !important;
+    justify-content: flex-start !important;
+  }
 }
