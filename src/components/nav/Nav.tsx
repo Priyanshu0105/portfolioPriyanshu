@@ -68,7 +68,7 @@ export default function Nav() {
         fontFamily: "Syne, sans-serif", fontSize: "25px",
         fontWeight: 800, letterSpacing: "-0.03em", color: "var(--text)",
       }}>
-        Priyanshu<span style={{ color: "var(--accent)" }}>.</span>
+        P<span style={{ color: "var(--accent)" }}>.dev</span>
       </div>
 
       {/* links */}
