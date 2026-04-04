@@ -112,6 +112,7 @@ export default function Hero() {
 
         {/* bottom row */}
         <div
+          className="hero-bottom"
           ref={bottomRef}
           style={{
             display:        "flex",
