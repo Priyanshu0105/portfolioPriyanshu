@@ -59,3 +59,34 @@ h1{
   margin-bottom: 1rem;
 }
 section { padding: 7rem 3rem; }
+
+@media (max-width: 768px) {
+  section {
+    padding: 4rem 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .hero-bottom {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1.5rem !important;
+  }
+
+  .nav-links {
+    display: none !important;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr !important;
+    gap: 3rem !important;
+  }
+
+  section {
+    padding: 4rem 1.5rem !important;
+  }
+}
