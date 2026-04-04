@@ -69,7 +69,9 @@ export default function About() {
         About
       </p>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "start" }}>
+      <div 
+        className="about-grid"
+        style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "start" }}>
 
         {/* left */}
         <div>
