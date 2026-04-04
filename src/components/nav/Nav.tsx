@@ -72,7 +72,9 @@ export default function Nav() {
       </div>
 
       {/* links */}
-      <ul ref={linksRef} style={{ display: "flex", gap: "2.5rem", listStyle: "none", marginLeft: "auto" , marginRight: "3rem"}}>
+      <ul ref={linksRef}
+        className="nav-links"
+        style={{ display: "flex", gap: "2.5rem", listStyle: "none", marginLeft: "auto" , marginRight: "3rem"}}>
         {navLinks.map((link) => (
           <li key={link}>
             <a
