@@ -1,5 +1,5 @@
 "use client";
-
+import { Analytics } from "@vercel/analytics/next"
 import Cursor  from "@/components/cursor/Cursor";
 import Nav     from "@/components/nav/Nav";
 import Hero    from "@/components/sections/Hero";
@@ -16,6 +16,7 @@ export default function Home() {
       <About />
       <Work />
       <Contact />
+      <Analytics />
     </main>
   );
 }
