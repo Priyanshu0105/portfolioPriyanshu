@@ -126,7 +126,7 @@ export default function Contact() {
         fontSize:       "11px",
         letterSpacing:  "0.05em",
       }}>
-        <span>© 2025 — all rights reserved</span>
+        <span>© 2026 — all rights reserved</span>
         <span>designed & built by <span style={{ color: "var(--accent)" }}>Priyanshu.</span></span>
       </div>
     </section>
