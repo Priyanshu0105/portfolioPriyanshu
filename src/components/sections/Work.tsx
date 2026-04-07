@@ -10,6 +10,14 @@ gsap.registerPlugin(ScrollTrigger);
 const projects: Project[] = [
   {
     num:  "01",
+    name: "Monster Energy Gsap Scroll Experience",
+    desc: "Interactive scroll-based web experience for Monster Energy's product launch, showcasing dynamic animations and engaging storytelling.",
+    tags: ["Next.js","TypeScript", "GSAP", "Tailwind CSS", "ScrollTrigger"],
+    url:  "https://monster-gsap.vercel.app/",
+    year: "2026",
+  },
+  {
+    num:  "02",
     name: "RepoWind — AI Context Engine",
     desc: "AI tool that analyzes GitHub repos to generate context summaries for faster project resumption.",
     tags: ["Next.js", "Tailwind", "Bun", "Hono", "Gemini AI", "GitHub OAuth"],
@@ -17,19 +25,11 @@ const projects: Project[] = [
     year: "2026",
   },
   {
-    num:  "02",
+    num:  "03",
     name: "Next-Commerce",
     desc: "Full-stack e-commerce backend with JWT authentication and admin-controlled product management.",
     tags: ["Next.js", "Express.js", "MongoDB", "JWT", "Redis"],
     url:  "https://github.com/Priyanshu0105/next-commerce",
-    year: "2025",
-  },
-  {
-    num:  "03",
-    name: "urlShortner",
-    desc: "Simple URL shortening service made for learning purposes.",
-    tags: ["JavaScript", "Node.js", "Express.js", "MongoDB", "EJS"],
-    url:  "https://github.com/Priyanshu0105/urlShortner",
     year: "2025",
   },
 ];
