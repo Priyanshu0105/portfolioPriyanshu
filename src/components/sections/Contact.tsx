@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const links = [
   { label: "email",    href: "mailto:priyanshu4996@gmail.com", icon: <MdEmail size={15} /> ,external: false   },
-  { label: "x.com",  href: "https://x.com/Priyanshu29810",icon: <FaXTwitter size={15} /> ,external: true },
+  { label: "x.com",  href: "https://x.com/devvnp",icon: <FaXTwitter size={15} /> ,external: true },
   { label: "github",   href: "https://github.com/Priyanshu0105",icon: <FaGithub size={15} />   ,external: true },
   { label: "linkedin", href: "https://www.linkedin.com/in/priyanshu-90694a293/",icon: <FaLinkedin size={15} /> ,external: true },
 ];
